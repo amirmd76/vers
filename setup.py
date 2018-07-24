@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="vers",
-    version="1.0.0",
+    version="1.0.2",
     author="AmirMohammad Dehghan",
     author_email="amirmd76@gmail.com",
     description="Version Comparision",

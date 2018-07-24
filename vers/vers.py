@@ -63,3 +63,13 @@ class Version:
 
     def __ge__(self, other):
         return self.__gt__(other) or self.__eq__(other)
+
+    def __str__(self):
+        if self.latest:
+            return "latest"
+        srv = ""
+        for i, ver in enumerate(self.version):
+            if i > 0:
+                srv += "."
+            srv += str(ver)
+        return srv

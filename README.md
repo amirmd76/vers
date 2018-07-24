@@ -1,6 +1,6 @@
 # Vers
 
-Vers is a version comparision library
+Vers is a python version comparision library
 
 ## Installation
 
